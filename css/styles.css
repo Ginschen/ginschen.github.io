@@ -1,0 +1,49 @@
+.title{
+    font-size: 100px;
+    color:orange;
+}
+
+.title2{
+    font-size: 20px;
+    border: black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+.paragraph{
+    font-size: 20px;
+    text-decoration-color: purple;
+    color: whitesmoke;
+}
+
+.nice-button{
+    font-size: large;
+    border: solid black;
+    background-color: yellow;
+    padding: 5px;
+    color: red;
+    border-radius: 20px;
+    /*max-width: fit-content;*/
+}
+
+.nice-button:hover{
+    background-color: salmon;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
