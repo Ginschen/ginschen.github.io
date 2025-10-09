@@ -1,5 +1,5 @@
 .title{
-    font-size: 100px;
+    font-size: 120px;
     color:orange;
 }
 .title2{
@@ -73,4 +73,22 @@ main{
     padding: 10px;
     border-radius: 10px;
     font-size: 30px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(18, 18, 20);
+    border-radius: 5px;
+    min-width: 700px;
+}
+.post-content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.post-text{
+    font-size: 25px;
+    color: rgb(230, 230, 230);
 }
