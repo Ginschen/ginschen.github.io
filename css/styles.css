@@ -2,21 +2,19 @@
     font-size: 100px;
     color:orange;
 }
-
 .title2{
     font-size: 20px;
     border: black;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: burlywood;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(255, 248, 219);
+    margin: 5px;
 }
-
 .paragraph{
     font-size: 20px;
-    text-decoration-color: purple;
     color: whitesmoke;
+    margin: 5px;
 }
-
 .nice-button{
     font-size: large;
     border: solid black;
@@ -24,26 +22,55 @@
     padding: 5px;
     color: red;
     border-radius: 20px;
-    /*max-width: fit-content;*/
+    max-height: fit-content;
+    max-width: fit-content;
 }
-
 .nice-button:hover{
     background-color: salmon;
 }
-
+.button-row {
+    display: flex;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 main{
     display: flex;
 }
-
-.left{
+.column{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    width: 500px;
+}
+.stamp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;        /* change size as needed */
+    height: auto;
+    z-index: 9999;       /* stays on top */
+}
+.picture-size{
+    width: 40px;
+    height: 40px;
+}
+.background-gradient{
+    background: linear-gradient(to bottom, red, black);
+}
+.centered-text{
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
 }
