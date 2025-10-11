@@ -3,7 +3,7 @@
     color:orange;
 }
 .title2{
-    font-size: 20px;
+    font-size: 30px;
     border: black;
     border-radius: 5px;
     padding: 3px;
@@ -80,7 +80,8 @@ main{
     align-items: center;
     background-color: rgb(18, 18, 20);
     border-radius: 5px;
-    min-width: 700px;
+    min-width: 900px;
+    margin-bottom: 10px;
 }
 .post-content{
     align-items: center;
@@ -89,6 +90,6 @@ main{
     padding: 5px;
 }
 .post-text{
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(230, 230, 230);
 }
